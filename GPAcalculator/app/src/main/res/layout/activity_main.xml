@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+<!--<ImageView-->
+<!--    android:layout_width="50dp"-->
+<!--    android:layout_height="50dp"-->
+<!--    android:src="@drawable/ic_launcher_background"-->
+<!--    android:layout_gravity="center"-->
+<!--    android:id="@+id/img"/>-->
+<!--  &lt;!&ndash;  <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/menubtn"-->
+<!--        android:text="popup"/>&ndash;&gt;-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="GPA CALCULATOR"-->
+<!--        android:layout_margin="20dp"-->
+<!--        android:textColor="#1B2BBA"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:textSize="30sp"-->
+<!--        android:gravity="center" />-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Subject 1"-->
+<!--        android:layout_marginLeft="15dp"-->
+<!--        android:textColor="@color/purple_700"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:textStyle="bold"/>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginLeft="25dp"-->
+<!--        android:layout_marginRight="25dp"-->
+<!--       android:orientation="horizontal"-->
+<!--        >-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Credit hours:"-->
+<!--            android:textColor="@color/black"/>-->
+<!--      <Spinner-->
+<!--          android:layout_width="wrap_content"-->
+<!--          android:layout_height="wrap_content"-->
+<!--          android:entries="@array/credit_hours"-->
+<!--          android:id="@+id/spnCr"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="grade:"-->
+<!--            android:layout_marginLeft="35dp"-->
+<!--            android:textColor="@color/black"/>-->
+<!--        <Spinner-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:entries="@array/grade"-->
+<!--            android:id="@+id/spnGr"/>-->
+<!--    </LinearLayout>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Subject 2"-->
+<!--        android:textColor="@color/purple_700"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginLeft="15dp"-->
+<!--        android:textStyle="bold"/>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_marginLeft="25dp"-->
+<!--        android:layout_marginRight="25dp"-->
+<!--        >-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Credit hours:"-->
+<!--            android:textColor="@color/black"/>-->
+<!--        <Spinner-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:entries="@array/credit_hours"-->
+<!--            android:id="@+id/spnCr2"-->
+
+<!--        />-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="grade:"-->
+<!--            android:layout_marginLeft="35dp"-->
+<!--            android:textColor="@color/black"/>-->
+<!--        <Spinner-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:entries="@array/grade"-->
+
+<!--            android:id="@+id/spnGr2"/>-->
+<!--    </LinearLayout>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Subject 3"-->
+<!--        android:textColor="@color/purple_700"-->
+<!--        android:layout_marginLeft="15dp"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:textStyle="bold"/>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_marginLeft="25dp"-->
+<!--        android:layout_marginRight="25dp"-->
+<!--        >-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Credit hours:"-->
+<!--            android:textColor="@color/black"/>-->
+<!--        <Spinner-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:entries="@array/credit_hours"-->
+<!--            android:id="@+id/spnCr3"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="grade:"-->
+<!--            android:layout_marginLeft="35dp"-->
+<!--            android:textColor="@color/black"/>-->
+<!--        <Spinner-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:entries="@array/grade"-->
+<!--            android:id="@+id/spnGr3"/>-->
+<!--    </LinearLayout>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Subject 4"-->
+<!--        android:textColor="@color/purple_700"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginLeft="15dp"-->
+<!--        android:textStyle="bold"/>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_marginLeft="25dp"-->
+<!--        android:layout_marginRight="25dp"-->
+<!--        >-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Credit hours:"-->
+<!--            android:textColor="@color/black"/>-->
+<!--        <Spinner-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:entries="@array/credit_hours"-->
+<!--            android:id="@+id/spnCr4"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="grade:"-->
+<!--            android:layout_marginLeft="35dp"-->
+<!--            android:textColor="@color/black"/>-->
+<!--        <Spinner-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:entries="@array/grade"-->
+<!--            android:id="@+id/spnGr4"/>-->
+<!--    </LinearLayout>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Subject 5"-->
+<!--        android:textColor="@color/purple_700"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginLeft="15dp"-->
+<!--        android:textStyle="bold"/>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_marginLeft="25dp"-->
+<!--        android:layout_marginRight="25dp"-->
+<!--        >-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Credit hours:"-->
+<!--            android:textColor="@color/black"/>-->
+<!--        <Spinner-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:entries="@array/credit_hours"-->
+<!--            android:id="@+id/spnCr5"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="grade:"-->
+<!--            android:layout_marginLeft="35dp"-->
+<!--            android:textColor="@color/black"/>-->
+<!--        <Spinner-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:entries="@array/grade"-->
+<!--            android:id="@+id/spnGr5"/>-->
+<!--    </LinearLayout>-->
+<!--    <Button-->
+<!--        android:id="@+id/btncalc"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Calculate"-->
+<!--        android:layout_margin="20dp"/>-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="The calculated GPA appears here"-->
+<!--        android:id="@+id/tvgpa"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:textColor="@color/black"/>-->
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/btncgpa"-->
+<!--        android:text="calculate cgpa"-->
+<!--        android:layout_margin="20dp"-->
+<!--        />-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello World"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            />
+    <TextView
+        android:id="@+id/signedintv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="email will show here"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:id="@+id/signoutbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="sign out"/>
+    <Button
+        android:id="@+id/savedatebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/browser_actions_divider_color"
+        android:text="save data"/>
+    <Button
+        android:id="@+id/readdatabtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="read data"/>
+    <TextView
+        android:id="@+id/readtv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="read data appears here"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        />
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lst"
+        />
+
+</LinearLayout>

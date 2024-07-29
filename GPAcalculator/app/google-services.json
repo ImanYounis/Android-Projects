@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "622153268450",
+    "project_id": "test-f-f20-be170",
+    "storage_bucket": "test-f-f20-be170.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622153268450:android:7ee39f24ba39d8f162f2bb",
+        "android_client_info": {
+          "package_name": "com.example.gpacalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622153268450-tgn36emck3n05egbp82qr65l4a9mghpp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgxaSe2zrVw8lh8XuuoLhac6A8d9dWZEs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622153268450-tgn36emck3n05egbp82qr65l4a9mghpp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

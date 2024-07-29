@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="WELCOME"
+
+        />
+    <TextView
+        android:id="@+id/emailtv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="Signed in email appears here"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/enteremail"
+        android:text="Enter email"
+        android:layout_margin="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/enterpassword"
+        android:text="Enter email"
+        android:layout_margin="20dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_200"
+        android:text="SAVE DATA"
+        android:id="@+id/savebtn"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="READ DATA"
+        android:backgroundTint="@color/orange"
+        android:id="@+id/readbtn"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/pink"
+        android:text="LOG OUT"
+        android:id="@+id/logoutbtn"
+        />
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lst"
+        />
+    <TextView
+        android:id="@+id/readtv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="Read data appears here"
+
+        />
+
+</LinearLayout>

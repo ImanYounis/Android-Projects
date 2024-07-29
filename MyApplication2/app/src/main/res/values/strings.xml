@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">MyApplication2</string>
+    <string name="my_name">IMAN</string>
+    <string-array name="strarr">
+        <item>red</item>
+    </string-array>
+    <array name="fav_colors">
+        <item>red</item>
+        <item>yellow</item>
+        <item>green</item>
+        <item>blue</item>
+        <item>chocolateBrown</item>
+    </array>
+    <string name="longtext">
+        a quick brown fox jumps over the lazy dog
+        a quick brown fox jumps over the lazy dog
+        a quick brown fox jumps over the lazy dog
+        a quick brown fox jumps over the lazy dog
+        a quick brown fox jumps over the lazy dog
+        a quick brown fox jumps over the lazy dog
+        a quick brown fox jumps over the lazy dog
+        a quick brown fox jumps over the lazy dog
+        a quick brown fox jumps over the lazy dog
+        a quick brown fox jumps over the lazy dog
+        a quick brown fox jumps over the lazy dog
+        a quick brown fox jumps over the lazy dog
+        a quick brown fox jumps over the lazy dog
+        a quick brown fox jumps over the lazy dog
+        a quick brown fox jumps over the lazy dog
+        a quick brown fox jumps over the lazy dog
+        a quick brown fox jumps over the lazy dog
+        a quick brown fox jumps over the lazy dog
+        a quick brown fox jumps over the lazy dog
+        a quick brown fox jumps over the lazy dog
+        a quick brown fox jumps over the lazy dog
+        a quick brown fox jumps over the lazy dog
+        a quick brown fox jumps over the lazy dog
+        a quick brown fox jumps over the lazy dog
+    </string>
+</resources>

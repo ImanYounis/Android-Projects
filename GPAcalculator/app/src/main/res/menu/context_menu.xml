@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="rotate left" android:id="@+id/rleft"/>
+    <item android:title="rotate right" android:id="@+id/rright"/>
+    <item android:title="print image" android:id="@+id/pimg"/>
+
+</menu>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".listviews"
+    android:gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="Sign In"
+
+        />
+    <EditText
+        android:id="@+id/ledtemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:hint="Enter email"
+        android:layout_marginTop="20dp"
+
+        />
+    <EditText
+        android:id="@+id/ledtpwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:hint="Enter password"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:layout_marginVertical="20dp"
+        android:id="@+id/loginbtn"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="Dont have an account?"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sign up"
+        android:textColor="@color/orange"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textAllCaps="true"
+        android:id="@+id/signuptv"
+        />
+    </LinearLayout>
+</LinearLayout>
